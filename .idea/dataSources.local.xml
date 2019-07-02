@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="TLT" uuid="590f01e4-cf17-48e5-b906-4eda395c2124">
+      <database-info product="MySQL" version="5.5.5-10.2.10-MariaDB" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.15 (Revision: 79a4336f140499bd22dd07f02b708e163844e3d5)" dbms="MARIADB" exact-version="10.2.10" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>jordan59961</user-name>
+      <introspection-schemas>*:tlt</introspection-schemas>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <proxy-host>tlt.jordanrifaey.com</proxy-host>
+        <user>ec2-user</user>
+        <use-password>false</use-password>
+        <auth-type>KEY_PAIR</auth-type>
+        <private-key-path>C:\Users\jorda\Google Drive\Code\TheLongestTitle\ec2creds.ppk</private-key-path>
+      </ssh-properties>
+    </data-source>
+  </component>
+</project>
